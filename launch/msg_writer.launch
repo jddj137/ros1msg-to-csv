@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node name="msg_writer" pkg="msg_writer" type="msg_writer.py" output="screen">
+        <param name="topic_to_write" type="string" value="/aruco_location/robot_pose" />
+        <param name="msg_type" type="string" value="PoseStamped" />
+        <param name="output_dir" type="string" value="/home/josh" />
+    </node>
+
+</launch>
+
+
+
+
+
+
